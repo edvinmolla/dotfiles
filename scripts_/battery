@@ -1,0 +1,11 @@
+#!/bin/bash
+perc=$(cat /sys/class/power_supply/BAT0/capacity)
+str1="Battery One is at: "
+str2="%"
+strfin="$str1$perc$str2"
+space=" & "
+perc2=$(cat /sys/class/power_supply/BAT1/capacity)
+str3="Battery Two is at: "
+str4="%"
+strfin2="$str3$perc2$str4"
+echo "$strfin$space$strfin2"

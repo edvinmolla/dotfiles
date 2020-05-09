@@ -1,0 +1,5 @@
+#!/bin/bash
+level=$(cat /sys/class/backlight/intel_backlight/brightness)
+str="Brightness level is: "
+strfin="$str$level"
+echo "$strfin/852"
