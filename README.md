@@ -59,4 +59,5 @@
   cd ..
   sudo rm -dR yaourt/ package-query/
   
+ 
   # Enable VIM autocomplete at the end
