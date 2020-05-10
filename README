@@ -1,14 +1,6 @@
 ## First setup
-  pacman -S git vim zsh thunderbird weechat
+  pacman -S git vim zsh thunderbird weechat i3-wm i3blocks i3lock i3status libxfce4ui libxfce4util xfce4-panel xorg-xinit
 
-## i3
-  pacman -S i3-wm i3blocks i3lock i3status
-  
-  
-## XFCE Bar
-
-  pacman -S libxfce4ui libxfce4util xfce4-panel 
-  
 ## Snapd
   
   git clone git clone https://aur.archlinux.org/snapd.git
