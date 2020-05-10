@@ -1,5 +1,5 @@
 ## First setup
-  pacman -S git vim zsh thunderbird weechat i3-wm i3blocks i3lock i3status libxfce4ui libxfce4util xfce4-panel xorg-xinit
+  pacman -S git vim zsh thunderbird weechat i3-wm i3blocks i3lock i3status libxfce4ui libxfce4util xfce4-panel xorg-xinit wget curl
 
 ## Snapd
   
